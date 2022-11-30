@@ -1,1 +1,29 @@
-gg
+ndd          向下删除 n 行
+d1G / dgg    删除第一行到当前行的数据
+dG           删除当前行到最后一行的数据
+d$           删除当前字符到行尾
+d0           从行首删除到当前字符
+yy           复制当前行#
+nyy          从当前行开始复制 n 行
+y1G / ygg    从第一行复制到当前行
+yG           从当前行复制到最后一行
+y0           从行首复制到当前字符
+y$           从当前字符复制到行尾
+p, P         黏贴，p 黏贴到光标下一行，P 黏贴到光标上一行
+
+在Vim编辑器中执行单独的Shell命令时，需要在命令之前加上":!"
+sudo curl ipinfo.io 查看外网IP
+命令末尾加 & 符号后台运行，不输出
+
+pidof:获取进程PID 例：pidof sshd
+killall 结束该进程（所有）例： killall sshd
+uname: 查看系统内核相关信息
+uptime:查看体统登入时间用户等信息
+tail: -f 文件名 > 查看实时更新文本
+tr:命令用于转换或删除文件中的字符 原字符 目标字符 》》 cat 文件名 | tr 原 目标》
+cut: 按列提取文字>> -d 设置分隔符 -f 提取的列数
+tar: -c 压缩 -x 解压 >> 常用 -zcvf 压 -zxvf 解
+chmod 更改读写执行rwx(421) u(user) g(group) o(other) a(all) +/-/= rwx
+chown 更改属主 -R 递归更改
+chgrp 更改属组 -R 递归更改
+scp -P 2114 -r 目录(文件） user@ip:目录(文件） ## -P 大写P制定端口))
