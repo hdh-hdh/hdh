@@ -13,7 +13,7 @@ p, P         黏贴，p 黏贴到光标下一行，P 黏贴到光标上一行
 
 在Vim编辑器中执行单独的Shell命令时，需要在命令之前加上":!"
 sudo curl ipinfo.io 查看外网IP
-命令末尾加 & 符号后台运行，不输出
+命令末尾加 & 符号后台运行，不输出/nohup 
 
 pidof:获取进程PID 例：pidof sshd
 killall 结束该进程（所有）例： killall sshd
